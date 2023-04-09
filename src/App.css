@@ -1,0 +1,117 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.list{
+  width: 100%;
+  background-color: #61dafb;
+} 
+.warp{
+  width: 90%;
+  max-width:1280px;
+  margin: 0 auto;
+  border: solid black 3px;
+}
+.list2{
+  width: 100%;
+}
+.contact{
+  margin-top: -20%;
+  background-color: aliceblue;
+  width: 100% ;
+  height: 7%;
+}
+.warp2{
+  width: 90%;
+  max-width:1280px;
+  margin: 0 auto;
+  border: solid black 3px;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: aqua;
+}
+.card{
+  display: flex;
+  border:solid red 1px;
+  height: 40%;
+  width: 34%;
+  margin-top: 5%;
+  
+}
+.m-card{
+  border: solid 1px black;
+  height: 10%;
+  text-align: center;
+}
+.cont2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.povorot{
+  display: flex;
+  flex-direction: column;
+  /* mar поменять чтгобы норм было */
+  margin-right: 200px;
+}
+.povorot2 input {
+  margin-right: 10px;
+}
+.povorot2{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px ;
+}
+.povorot4{
+  display: flex;
+  justify-content: center;
+}
+.goal{
+  width: 250px;
+  height: 30px;
+}
+button{
+  border: none;
+  width: 150px;
+  height: 33px;
+}
